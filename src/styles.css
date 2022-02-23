@@ -1,0 +1,30 @@
+.sidebar {
+  display: flex;
+  place-content: space-evenly;
+}
+
+.table {
+  width: 100%;
+  margin-top: 50px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.bulk-delete {
+  float: right;
+  margin: 30px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  color: black;
+  background: gray;
+}
